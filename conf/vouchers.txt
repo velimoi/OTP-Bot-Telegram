@@ -1,0 +1,19 @@
+{
+    "vouchers": [
+        {
+            "MEGAWATI-I46QOHF62TOWVS50": {
+                "days": "1"
+            }
+        },
+        {
+            "MEGAWATI-O5292OAEUSEZC5YM": {
+                "days": "1"
+            }
+        },
+        {
+            "OTPbroker-TUFXCVICPNRDSXZG": {
+                "days": "999"
+            }
+        }
+    ]
+}
