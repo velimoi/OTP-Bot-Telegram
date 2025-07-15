@@ -14,7 +14,7 @@ from datetime import datetime
 
 raw_config = json.loads(open('./conf/settings.txt', 'r').read())
 
-bot_token = ['8078682981:AAECiP6bH9D7N7T6pA0HnBjnuOfBHKyHIT0]
+bot_token = ['8078682981:AAECiP6bH9D7N7T6pA0HnBjnuOfBHKyHIT0']
 account_sid = raw_config['account_sid']
 auth_token = raw_config['auth_token']
 ngrok = raw_config['ngrok_url']
