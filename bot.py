@@ -21,7 +21,7 @@ ngrok = raw_config['ngrok_url']
 phone_numz = ['+12193276028']
 
 client = Client(account_sid, auth_token)
-bot = telebot.TeleBot("AAECiP6bH9D7N7T6pA0HnBjnuOfBHKyHIT0")
+bot = telebot.TeleBot('8078682981:AAECiP6bH9D7N7T6pA0HnBjnuOfBHKyHIT0')
 
 def check_subscription(idkey):
     subscription = open('./conf/'+idkey+'/subs.txt', 'r').read()
