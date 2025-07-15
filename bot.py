@@ -62,7 +62,7 @@ Below are the basic commands of the bot and their descriptions:
 ⚙️ /clearset: Reset the current settings of the bot.  
 🎙️ /start: Start the bot and create your subscription information.  
 
-💡 For more information, please contact @YOUR_TG_NAME.  
+💡 For more information, please contact @Z3363.  
 """
     safe_text = help_text.replace("_", "\\_").replace("*", "\\*").replace("[", "\\[").replace("]", "\\]").replace("(", "\\(").replace(")", "\\)").replace(".", "\\.").replace("-", "\\-")
     
