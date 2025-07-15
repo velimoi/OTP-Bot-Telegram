@@ -22,6 +22,7 @@ phone_numz = raw_config['Twilio Phone Number']
 
 client = Client(account_sid, auth_token)
 bot = telebot.TeleBot("AAECiP6bH9D7N7T6pA0HnBjnuOfBHKyHIT0")
+
 def check_subscription(idkey):
     subscription = open('./conf/'+idkey+'/subs.txt', 'r').read()
     idmember = subscription
