@@ -14,14 +14,14 @@ from datetime import datetime
 
 raw_config = json.loads(open('./conf/settings.txt', 'r').read())
 
-bot_token = raw_config['8078682981:AAFFeiRD1OHv72owtDg0M6cYgOOm5DFAlng']
+bot_token = raw_config['']
 account_sid = raw_config['account_sid']
 auth_token = raw_config['auth_token']
 ngrok = raw_config['ngrok_url']
 phone_numz = raw_config['Twilio Phone Number']
 
 client = Client(account_sid, auth_token)
-bot = telebot.TeleBot(8078682981:AAFFeiRD1OHv72owtDg0M6cYgOOm5DFAlng)  
+bot = telebot.TeleBot()  
 
 def check_subscription(idkey):
     subscription = open('./conf/'+idkey+'/subs.txt', 'r').read()
