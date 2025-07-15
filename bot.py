@@ -82,7 +82,7 @@ def subscription_info(pm):
     else:
         bot.send_message(
             pm.chat.id,
-            "❌ Subscription Status: Passive\n\nPlease contact @YOUR_TG_NAME to purchase a subscription.",
+            "❌ Subscription Status: Passive\n\nPlease contact @Z3363 to purchase a subscription.",
             parse_mode="Markdown"
         )
 
