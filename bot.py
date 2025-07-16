@@ -105,7 +105,7 @@ def manage_subscription(pm):
 def extend_subscription(call):
     bot.send_message(
         call.message.chat.id,
-        "📞 Please contact @YOUR_TG_NAME to extend your subscription."
+        "📞 Please contact @Z3363 to extend your subscription."
     )
 
 
