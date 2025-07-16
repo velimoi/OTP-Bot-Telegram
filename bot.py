@@ -24,7 +24,7 @@ client = Client(account_sid, auth_token)
 bot = telebot.TeleBot('8078682981:AAECiP6bH9D7N7T6pA0HnBjnuOfBHKyHIT0')
 
 def check_subscription(idkey):
-    subscription = open('./conf/'+idkey+'/users.txt', 'r').read()
+    subscription = open('./conf/'+idkey+'/subs.txt', 'r').read()
     idmember = subscription
     idmember = datetime.strptime(idmember, '%d/%m/%Y')
     if idmember < datetime.now():
